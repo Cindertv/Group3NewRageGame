@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4dc1c7c-2543-4d4f-a5b0-bfa898f7a9bd" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HealthController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+              <folding>
+                <marker date="1534745259178" expanded="false" signature="6:100" ph="..." />
+                <marker date="1534745259178" expanded="true" signature="148:921" ph="{...}" />
+                <marker date="1534745259178" expanded="true" signature="388:726" ph="{...}" />
+                <marker date="1534745259178" expanded="true" signature="426:517" ph="{...}" />
+                <marker date="1534745259178" expanded="true" signature="522:723" ph="{...}" />
+                <marker date="1534745259178" expanded="true" signature="587:696" ph="{...}" />
+                <marker date="1534745259178" expanded="true" signature="758:919" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LookAtCamera.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+              <folding>
+                <marker date="1534745348908" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534745348908" expanded="true" signature="122:574" ph="{...}" />
+                <marker date="1534745348908" expanded="true" signature="127:373" ph="/* this is a simple script that will rotate the transform of an object towards the camera ... */" />
+                <marker date="1534745348908" expanded="true" signature="421:446" ph="{...}" />
+                <marker date="1534745348908" expanded="true" signature="475:572" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+              <folding>
+                <marker date="1534745368212" expanded="false" signature="6:150" ph="..." />
+                <marker date="1534745368212" expanded="true" signature="188:1922" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="501:599" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="623:739" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="768:971" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="878:919" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="924:966" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="1000:1240" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="1078:1178" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="1185:1237" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="1285:1763" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="1370:1412" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="1419:1527" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="1554:1739" ph="{...}" />
+                <marker date="1534745368212" expanded="true" signature="1795:1920" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TargetRange.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TargetRange.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="718">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <marker date="1534745557824" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534745557824" expanded="true" signature="121:1458" ph="{...}" />
+                <marker date="1534745557824" expanded="true" signature="351:760" ph="{...}" />
+                <marker date="1534745557824" expanded="true" signature="357:557" ph="/* we try and select the next enemy in the list.  If there's less enemies ... */" />
+                <marker date="1534745557824" expanded="true" signature="615:741" ph="{...}" />
+                <marker date="1534745557824" expanded="true" signature="807:1124" ph="{...}" />
+                <marker date="1534745557824" expanded="true" signature="813:946" ph="/* If the other object entering the trigger is an enemy, we add it to the ... */" />
+                <marker date="1534745557824" expanded="true" signature="982:1121" ph="{...}" />
+                <marker date="1534745557824" expanded="true" signature="1051:1117" ph="{...}" />
+                <marker date="1534745557824" expanded="true" signature="1169:1455" ph="{...}" />
+                <marker date="1534745557824" expanded="true" signature="1175:1275" ph="/* If an enemy leaves the trigger area, we remove it from the list if its ... */" />
+                <marker date="1534745557824" expanded="true" signature="1311:1452" ph="{...}" />
+                <marker date="1534745557824" expanded="true" signature="1379:1448" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrackObject.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrackObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding>
+                <marker date="1534745631748" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534745631748" expanded="true" signature="121:487" ph="{...}" />
+                <marker date="1534745631748" expanded="true" signature="125:342" ph="/* This script will set the transform of the object its attached to ... */" />
+                <marker date="1534745631748" expanded="true" signature="400:485" ph="{...}" />
+                <marker date="1534745631748" expanded="true" signature="423:482" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrackPlayer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrackPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <marker date="1534746330572" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534746330572" expanded="true" signature="121:599" ph="{...}" />
+                <marker date="1534746330572" expanded="true" signature="125:392" ph="/* This is similar to the TrackObject script, except for adding an offset ... */" />
+                <marker date="1534746330572" expanded="true" signature="458:516" ph="{...}" />
+                <marker date="1534746330572" expanded="true" signature="534:597" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaypointGroup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointGroup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding>
+                <marker date="1534745805808" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534745805808" expanded="true" signature="122:1094" ph="{...}" />
+                <marker date="1534745805808" expanded="true" signature="129:286" ph="/* This is a set of helper methods to return the nearest waypoint index and returning a ... */" />
+                <marker date="1534745805808" expanded="true" signature="347:817" ph="{...}" />
+                <marker date="1534745805808" expanded="true" signature="495:774" ph="{...}" />
+                <marker date="1534745805808" expanded="true" signature="589:764" ph="{...}" />
+                <marker date="1534745805808" expanded="true" signature="870:932" ph="{...}" />
+                <marker date="1534745805808" expanded="true" signature="981:1092" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaypointSolver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointSolver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2400">
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+              <folding>
+                <marker date="1534746286226" expanded="false" signature="6:100" ph="..." />
+                <marker date="1534746286226" expanded="true" signature="125:339" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="384:3485" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="391:563" ph="/* The waypoint solver is responsible to move our enemies around the map. ... */" />
+                <marker date="1534746286226" expanded="true" signature="922:1157" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="1189:1864" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="1204:1290" ph="/* We're setting the waypoint based on the current patrol state ... */" />
+                <marker date="1534746286226" expanded="true" signature="1320:1858" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="1891:2650" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="1906:1985" ph="/* Update is performed based on the current patrol state ... */" />
+                <marker date="1534746286226" expanded="true" signature="2023:2644" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="2199:2334" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="2700:2898" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="2931:3091" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="3123:3218" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="3250:3304" ph="{...}" />
+                <marker date="1534746286226" expanded="true" signature="3339:3483" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaypointGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaypointSolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetRange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetRange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrackObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaypointGroup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaypointSolver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrackPlayer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Enemy Attacks" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4dc1c7c-2543-4d4f-a5b0-bfa898f7a9bd" name="Default" comment="" />
+      <created>1534745060937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534745060937</updated>
+      <workItem from="1534745066704" duration="1250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1250000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="8" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2109375" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="11" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding>
+            <marker date="1534745259178" expanded="false" signature="6:100" ph="..." />
+            <marker date="1534745259178" expanded="true" signature="148:921" ph="{...}" />
+            <marker date="1534745259178" expanded="true" signature="388:726" ph="{...}" />
+            <marker date="1534745259178" expanded="true" signature="426:517" ph="{...}" />
+            <marker date="1534745259178" expanded="true" signature="522:723" ph="{...}" />
+            <marker date="1534745259178" expanded="true" signature="587:696" ph="{...}" />
+            <marker date="1534745259178" expanded="true" signature="758:919" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+          <folding>
+            <marker date="1534745348908" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534745348908" expanded="true" signature="122:574" ph="{...}" />
+            <marker date="1534745348908" expanded="true" signature="127:373" ph="/* this is a simple script that will rotate the transform of an object towards the camera ... */" />
+            <marker date="1534745348908" expanded="true" signature="421:446" ph="{...}" />
+            <marker date="1534745348908" expanded="true" signature="475:572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+          <folding>
+            <marker date="1534745368212" expanded="false" signature="6:150" ph="..." />
+            <marker date="1534745368212" expanded="true" signature="188:1922" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="501:599" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="623:739" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="768:971" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="878:919" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="924:966" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="1000:1240" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="1078:1178" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="1185:1237" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="1285:1763" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="1370:1412" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="1419:1527" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="1554:1739" ph="{...}" />
+            <marker date="1534745368212" expanded="true" signature="1795:1920" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TargetRange.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <marker date="1534745557824" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534745557824" expanded="true" signature="121:1458" ph="{...}" />
+            <marker date="1534745557824" expanded="true" signature="351:760" ph="{...}" />
+            <marker date="1534745557824" expanded="true" signature="357:557" ph="/* we try and select the next enemy in the list.  If there's less enemies ... */" />
+            <marker date="1534745557824" expanded="true" signature="615:741" ph="{...}" />
+            <marker date="1534745557824" expanded="true" signature="807:1124" ph="{...}" />
+            <marker date="1534745557824" expanded="true" signature="813:946" ph="/* If the other object entering the trigger is an enemy, we add it to the ... */" />
+            <marker date="1534745557824" expanded="true" signature="982:1121" ph="{...}" />
+            <marker date="1534745557824" expanded="true" signature="1051:1117" ph="{...}" />
+            <marker date="1534745557824" expanded="true" signature="1169:1455" ph="{...}" />
+            <marker date="1534745557824" expanded="true" signature="1175:1275" ph="/* If an enemy leaves the trigger area, we remove it from the list if its ... */" />
+            <marker date="1534745557824" expanded="true" signature="1311:1452" ph="{...}" />
+            <marker date="1534745557824" expanded="true" signature="1379:1448" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrackObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <marker date="1534745631748" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534745631748" expanded="true" signature="121:487" ph="{...}" />
+            <marker date="1534745631748" expanded="true" signature="125:342" ph="/* This script will set the transform of the object its attached to ... */" />
+            <marker date="1534745631748" expanded="true" signature="400:485" ph="{...}" />
+            <marker date="1534745631748" expanded="true" signature="423:482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <marker date="1534745805808" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534745805808" expanded="true" signature="122:1094" ph="{...}" />
+            <marker date="1534745805808" expanded="true" signature="129:286" ph="/* This is a set of helper methods to return the nearest waypoint index and returning a ... */" />
+            <marker date="1534745805808" expanded="true" signature="347:817" ph="{...}" />
+            <marker date="1534745805808" expanded="true" signature="495:774" ph="{...}" />
+            <marker date="1534745805808" expanded="true" signature="589:764" ph="{...}" />
+            <marker date="1534745805808" expanded="true" signature="870:932" ph="{...}" />
+            <marker date="1534745805808" expanded="true" signature="981:1092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointSolver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding>
+            <marker date="1534746286226" expanded="false" signature="6:100" ph="..." />
+            <marker date="1534746286226" expanded="true" signature="125:339" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="384:3485" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="391:563" ph="/* The waypoint solver is responsible to move our enemies around the map. ... */" />
+            <marker date="1534746286226" expanded="true" signature="922:1157" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="1189:1864" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="1204:1290" ph="/* We're setting the waypoint based on the current patrol state ... */" />
+            <marker date="1534746286226" expanded="true" signature="1320:1858" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="1891:2650" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="1906:1985" ph="/* Update is performed based on the current patrol state ... */" />
+            <marker date="1534746286226" expanded="true" signature="2023:2644" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="2199:2334" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="2700:2898" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="2931:3091" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="3123:3218" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="3250:3304" ph="{...}" />
+            <marker date="1534746286226" expanded="true" signature="3339:3483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrackPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <marker date="1534746330572" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534746330572" expanded="true" signature="121:599" ph="{...}" />
+            <marker date="1534746330572" expanded="true" signature="125:392" ph="/* This is similar to the TrackObject script, except for adding an offset ... */" />
+            <marker date="1534746330572" expanded="true" signature="458:516" ph="{...}" />
+            <marker date="1534746330572" expanded="true" signature="534:597" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
