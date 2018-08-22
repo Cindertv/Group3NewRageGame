@@ -6,14 +6,17 @@ public class TrackPlayer : MonoBehaviour {
 
 	public Player player;
 
+    public bool rotateCamera = true;
+
 	Vector3 offset;
 
 	private void Start()
 	{
-		offset = new Vector3(0, transform.position.y, 0);
+		offset = transform.position - player.transform.position;
 	}
 
 	void Update () {
 		transform.position = player.transform.position + offset;
+        if(rotateCamera)     transform.rotation = player.transform.rotation;
 	}
 }
