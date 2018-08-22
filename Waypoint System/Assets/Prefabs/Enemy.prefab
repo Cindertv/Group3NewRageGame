@@ -165,7 +165,6 @@ GameObject:
   - component: {fileID: 223363534371496988}
   - component: {fileID: 114764088951638708}
   - component: {fileID: 114135288244819870}
-  - component: {fileID: 114394179200427456}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -544,17 +543,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114394179200427456
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1762335766020160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 133553cf10f719547b2af0f45719b833, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114490729519535228
 MonoBehaviour:
   m_ObjectHideFlags: 1
