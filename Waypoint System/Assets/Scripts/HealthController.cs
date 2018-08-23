@@ -9,7 +9,7 @@ public class HealthController : MonoBehaviour {
 	[Header("UI elements")]
 	public Text enemyNameText;
 	public Text healthText;
-	public Slider healthBar;
+	
 
 	public Player player;
 	
@@ -19,13 +19,13 @@ public class HealthController : MonoBehaviour {
 		if (player.targetedEnemy == null) 
 		{
 			enemyNameText.text = "Select Enemy";
-			healthBar.gameObject.SetActive(false);
+			
 
 		} else
 		{
 			if (enemyNameText.text != player.targetedEnemy.enemyName)
 			{
-				healthBar.gameObject.SetActive(true);
+				
 				enemyNameText.text = player.targetedEnemy.enemyName;
 			}
 			UpdateHealthUI();
@@ -37,7 +37,7 @@ public class HealthController : MonoBehaviour {
 
 	private void UpdateHealthUI()
 	{
-		healthBar.value = player.targetedEnemy.GetHealthPertcentage();
+		
 		healthText.text = Mathf.Round(player.targetedEnemy.GetHealthPertcentage() * 100) + "%";
 	}
 }
