@@ -80,7 +80,7 @@ public class Player : MonoBehaviour {
 		if (currentHealth <= 0)
 		{
 			currentHealth = 0;
-			GetComponent<RigidbodyFirstPersonController>().enabled = false;
+			GetComponent<RigidbodyThirdPersonController>().enabled = false;
 			GetComponent<Rigidbody>().velocity = Vector3.zero;
 			
 			print("You're DEAD!");
