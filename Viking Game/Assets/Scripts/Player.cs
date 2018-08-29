@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityStandardAssets.Characters.FirstPerson;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Player : MonoBehaviour {
 
@@ -80,7 +80,7 @@ public class Player : MonoBehaviour {
 		if (currentHealth <= 0)
 		{
 			currentHealth = 0;
-			GetComponent<RigidbodyThirdPersonController>().enabled = false;
+			GetComponent<ThirdPersonCharacter>().enabled = false;
 			GetComponent<Rigidbody>().velocity = Vector3.zero;
 			
 			print("You're DEAD!");
