@@ -401,6 +401,34 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 654481c16dffecd4da5306ee63d9ad0c, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &240103769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 240103770}
+  m_Layer: 0
+  m_Name: TargetLook
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &240103770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240103769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1882145837}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &286724318 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224339783792706316, guid: 8f4e094bd86596f4f8eb5af18e138e05,
@@ -1566,6 +1594,7 @@ GameObject:
   - component: {fileID: 1406709562}
   - component: {fileID: 1406709561}
   - component: {fileID: 1406709560}
+  - component: {fileID: 1406709563}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: Untagged
@@ -1627,12 +1656,28 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1406709559}
   m_LocalRotation: {x: 0.12858282, y: -0, z: -0, w: 0.99169886}
-  m_LocalPosition: {x: 0.8699951, y: 1.9899979, z: -2.2399902}
+  m_LocalPosition: {x: 222.3, y: 91.8, z: 187.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1757525390}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 14.775001, y: 0, z: 0}
+--- !u!114 &1406709563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406709559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0466d3e50a4ba4bab03a760ec69646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousesens: 10
+  target: {fileID: 240103770}
+  dstFromTarget: 2
+  pitchminmax: {x: -45, y: 85}
+  rotationSmoothtime: 0.12
 --- !u!1 &1430947901
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,49 +1791,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f867f1682325a2347b47d29bdd369bad, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1757525388
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1757525390}
-  - component: {fileID: 1757525389}
-  m_Layer: 0
-  m_Name: Camera Rig
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1757525389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1757525388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfaa2eecf54ed2d44b6e9eaa0adf19c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1882145839}
-  rotateCamera: 1
---- !u!4 &1757525390
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1757525388}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 221.2, y: 90.21, z: 189.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1406709562}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1767556083
 Prefab:
   m_ObjectHideFlags: 0
@@ -1798,7 +1800,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: b14e38b7f3703414fac2121e4eb93b12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 219.1631
+      value: 222.04
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b14e38b7f3703414fac2121e4eb93b12, type: 3}
       propertyPath: m_LocalPosition.y
