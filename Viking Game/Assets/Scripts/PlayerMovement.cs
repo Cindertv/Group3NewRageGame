@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour {
     public float SpeedSmoothTime = 0.01f;
     float speedSmoothVelocity;
     float currentspeed;
+    CharacterController controller;
+
 
     Transform cameraT;
 
@@ -22,6 +24,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         anim = GetComponent<Animator>();
         cameraT = Camera.main.transform;
+        controller = GetComponent<CharacterController>();
     }
     // Update is called once per frame
     void Update ()
@@ -38,7 +41,7 @@ public class PlayerMovement : MonoBehaviour {
 
         float targetSpeed = ((running) ? runspeed : walkspeed)* inputdirection.magnitude;
         currentspeed = Mathf.SmoothDamp(currentspeed, targetSpeed, ref speedSmoothVelocity, SpeedSmoothTime);
-        transform.Translate(transform.forward * targetSpeed * Time.deltaTime, Space.World);
+        Vector3 velocity = (transform.forward * targetSpeed);
 
         float animationSpeedPercent = ((running) ? 1 : 5f) * inputdirection.magnitude;
         anim.SetFloat("SpeedPercent", animationSpeedPercent , SpeedSmoothTime, Time.deltaTime);
