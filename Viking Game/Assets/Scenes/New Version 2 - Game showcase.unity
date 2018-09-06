@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -422,7 +422,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 324607256}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 0.32
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -998,6 +998,45 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 1882145839}
+    - target: {fileID: 224273508055761096, guid: 8f4e094bd86596f4f8eb5af18e138e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -287.79788
+      objectReference: {fileID: 0}
+    - target: {fileID: 224229654079284648, guid: 8f4e094bd86596f4f8eb5af18e138e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -479.66315
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389145203553604, guid: 8f4e094bd86596f4f8eb5af18e138e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -95.932625
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695251431004332, guid: 8f4e094bd86596f4f8eb5af18e138e05, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460162795412756, guid: 8f4e094bd86596f4f8eb5af18e138e05, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371499113205780, guid: 8f4e094bd86596f4f8eb5af18e138e05, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354780411403648, guid: 8f4e094bd86596f4f8eb5af18e138e05, type: 2}
+      propertyPath: m_Name
+      value: Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964604161874468, guid: 8f4e094bd86596f4f8eb5af18e138e05, type: 2}
+      propertyPath: m_Name
+      value: Options
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290223524807818, guid: 8f4e094bd86596f4f8eb5af18e138e05, type: 2}
+      propertyPath: m_Name
+      value: Exit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f4e094bd86596f4f8eb5af18e138e05, type: 2}
   m_IsPrefabAsset: 0
